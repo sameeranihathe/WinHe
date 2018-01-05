@@ -9,3 +9,4 @@ F:\C# projects\WinHee\WinHee\obj\Debug\WinHee.exe
 F:\C# projects\WinHee\WinHee\obj\Debug\WinHee.pdb
 F:\C# projects\WinHee\WinHee\obj\Debug\WinHee.products.resources
 F:\C# projects\WinHee\WinHee\obj\Debug\WinHee.Invoices.resources
+F:\C# projects\WinHee\WinHee\obj\Debug\WinHee.AddProductForm.resources

@@ -16,5 +16,11 @@ namespace WinHee
         {
             InitializeComponent();
         }
+
+        private void btn_add_product_Click(object sender, EventArgs e)
+        {
+            AddProductForm AddProduct = new AddProductForm();
+            AddProduct.Show();
+        }
     }
 }

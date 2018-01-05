@@ -28,41 +28,41 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.textBox_search = new System.Windows.Forms.TextBox();
+            this.button_search = new System.Windows.Forms.Button();
+            this.dataGridView_products = new System.Windows.Forms.DataGridView();
             this.btn_add_product = new System.Windows.Forms.Button();
             this.btn_edit_product = new System.Windows.Forms.Button();
             this.btn_delete_product = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView_products)).BeginInit();
             this.SuspendLayout();
             // 
-            // textBox1
+            // textBox_search
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(28, 32);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(263, 27);
-            this.textBox1.TabIndex = 0;
+            this.textBox_search.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox_search.Location = new System.Drawing.Point(28, 32);
+            this.textBox_search.Name = "textBox_search";
+            this.textBox_search.Size = new System.Drawing.Size(263, 27);
+            this.textBox_search.TabIndex = 0;
             // 
-            // button1
+            // button_search
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(321, 30);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(109, 29);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "Search";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button_search.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_search.Location = new System.Drawing.Point(321, 30);
+            this.button_search.Name = "button_search";
+            this.button_search.Size = new System.Drawing.Size(109, 29);
+            this.button_search.TabIndex = 1;
+            this.button_search.Text = "Search";
+            this.button_search.UseVisualStyleBackColor = true;
             // 
-            // dataGridView1
+            // dataGridView_products
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(28, 91);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(852, 335);
-            this.dataGridView1.TabIndex = 2;
+            this.dataGridView_products.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView_products.Location = new System.Drawing.Point(28, 91);
+            this.dataGridView_products.Name = "dataGridView_products";
+            this.dataGridView_products.RowTemplate.Height = 24;
+            this.dataGridView_products.Size = new System.Drawing.Size(852, 335);
+            this.dataGridView_products.TabIndex = 2;
             // 
             // btn_add_product
             // 
@@ -73,6 +73,7 @@
             this.btn_add_product.TabIndex = 3;
             this.btn_add_product.Text = "Add Product";
             this.btn_add_product.UseVisualStyleBackColor = true;
+            this.btn_add_product.Click += new System.EventHandler(this.btn_add_product_Click);
             // 
             // btn_edit_product
             // 
@@ -102,12 +103,12 @@
             this.Controls.Add(this.btn_delete_product);
             this.Controls.Add(this.btn_edit_product);
             this.Controls.Add(this.btn_add_product);
-            this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.dataGridView_products);
+            this.Controls.Add(this.button_search);
+            this.Controls.Add(this.textBox_search);
             this.Name = "products";
             this.Text = "Products";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView_products)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -115,9 +116,9 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.TextBox textBox_search;
+        private System.Windows.Forms.Button button_search;
+        private System.Windows.Forms.DataGridView dataGridView_products;
         private System.Windows.Forms.Button btn_add_product;
         private System.Windows.Forms.Button btn_edit_product;
         private System.Windows.Forms.Button btn_delete_product;

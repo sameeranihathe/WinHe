@@ -63,6 +63,7 @@
             this.dataGridView_products.RowTemplate.Height = 24;
             this.dataGridView_products.Size = new System.Drawing.Size(852, 335);
             this.dataGridView_products.TabIndex = 2;
+            this.dataGridView_products.RowHeaderMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dataGridView_products_RowHeaderMouseClick);
             // 
             // btn_add_product
             // 
@@ -108,6 +109,7 @@
             this.Controls.Add(this.textBox_search);
             this.Name = "products";
             this.Text = "Products";
+            this.Load += new System.EventHandler(this.products_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_products)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

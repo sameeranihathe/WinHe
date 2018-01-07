@@ -17,10 +17,12 @@ namespace WinHee
             InitializeComponent();
         }
 
+
         private void button1_Click(object sender, EventArgs e)
         {
             products products = new products();
             products.Show();
+            this.Hide();
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -32,12 +34,14 @@ namespace WinHee
         {
             customers customers = new customers();
             customers.Show();
+            this.Hide();
         }
 
         private void InvoicesButton_Click(object sender, EventArgs e)
         {
             Invoices invoices = new Invoices();
             invoices.Show();
+            this.Hide();
         }
     }
 }

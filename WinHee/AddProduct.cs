@@ -19,7 +19,8 @@ namespace WinHee
         }
 
         Products c = new Products();
-
+       
+        // dataGridView_products 
 
         private void button_add_product_Click(object sender, EventArgs e)
         {
@@ -39,6 +40,10 @@ namespace WinHee
             {
                 MessageBox.Show("Failed to Add New Contact");
             }
+            //Load data into gridview
+            DataTable dt = c.Select();
+            dataGridView_products.DataSource = dt;
+
 
         }
         public void Clear()

@@ -13,11 +13,11 @@ namespace WinHee.ProductsClass
     {
         //getters and setters
         public int ProductID { get; set; }
-        public String ProductName { get; set; }
-        public String ProductDescription { get; set; }
-        public int PurchsePrice { get; set; }
-        public int SellingPrice { get; set; }
-        public int Quantity { get; set; }
+        public String? ProductName { get; set; }
+        public String? ProductDescription { get; set; }
+        public int? PurchsePrice { get; set; }
+        public int? SellingPrice { get; set; }
+        public int? Quantity { get; set; }
 
         static string myconnstring = ConfigurationManager.ConnectionStrings["connstrng"].ConnectionString;
 

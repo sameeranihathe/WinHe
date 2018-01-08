@@ -1,12 +1,7 @@
-F:\C# projects\WinHee\WinHee\bin\Debug\WinHee.exe.config
-F:\C# projects\WinHee\WinHee\bin\Debug\WinHee.exe
-F:\C# projects\WinHee\WinHee\bin\Debug\WinHee.pdb
 F:\C# projects\WinHee\WinHee\obj\Debug\WinHee.csprojResolveAssemblyReference.cache
+F:\C# projects\WinHee\WinHee\obj\Debug\WinHee.AddProductForm.resources
 F:\C# projects\WinHee\WinHee\obj\Debug\WinHee.homeScreen.resources
+F:\C# projects\WinHee\WinHee\obj\Debug\WinHee.Invoices.resources
+F:\C# projects\WinHee\WinHee\obj\Debug\WinHee.products.resources
 F:\C# projects\WinHee\WinHee\obj\Debug\WinHee.Properties.Resources.resources
 F:\C# projects\WinHee\WinHee\obj\Debug\WinHee.csproj.GenerateResource.Cache
-F:\C# projects\WinHee\WinHee\obj\Debug\WinHee.exe
-F:\C# projects\WinHee\WinHee\obj\Debug\WinHee.pdb
-F:\C# projects\WinHee\WinHee\obj\Debug\WinHee.products.resources
-F:\C# projects\WinHee\WinHee\obj\Debug\WinHee.Invoices.resources
-F:\C# projects\WinHee\WinHee\obj\Debug\WinHee.AddProductForm.resources

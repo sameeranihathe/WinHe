@@ -35,5 +35,10 @@ namespace WinHee
         {
 
         }
+
+        private void dataGridView_products_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

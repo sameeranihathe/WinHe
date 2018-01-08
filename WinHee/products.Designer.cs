@@ -63,6 +63,7 @@
             this.dataGridView_products.RowTemplate.Height = 24;
             this.dataGridView_products.Size = new System.Drawing.Size(852, 335);
             this.dataGridView_products.TabIndex = 2;
+            this.dataGridView_products.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView_products_CellContentClick);
             this.dataGridView_products.RowHeaderMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dataGridView_products_RowHeaderMouseClick);
             // 
             // btn_add_product

@@ -1,0 +1,5 @@
+F:\C# projects\WinHee\Model\bin\Debug\Model.dll
+F:\C# projects\WinHee\Model\bin\Debug\Model.pdb
+F:\C# projects\WinHee\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+F:\C# projects\WinHee\Model\obj\Debug\Model.dll
+F:\C# projects\WinHee\Model\obj\Debug\Model.pdb

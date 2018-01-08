@@ -41,8 +41,8 @@ namespace WinHee
                 MessageBox.Show("Failed to Add New Contact");
             }
             //Load data into gridview
-            DataTable dt = c.Select();
-            dataGridView_products.DataSource = dt;
+           // DataTable dt = c.Select();
+           // dataGridView_products.DataSource = dt;
 
 
         }
